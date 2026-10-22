@@ -1,0 +1,500 @@
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ ps aux 
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2  26988 16988 ?        Ss   Oct18   0:05 /usr/lib/syst
+root           2  0.0  0.0      0     0 ?        S    Oct18   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Oct18   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-sy
+root           6  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-kv
+root           7  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-sl
+root           8  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ne
+root          10  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/0:0H
+root          13  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-mm
+root          14  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    Oct18   0:23 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    Oct18   0:00 [rcu_exp_par_
+root          17  0.0  0.0      0     0 ?        S    Oct18   0:00 [rcu_exp_gp_k
+root          18  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    Oct18   0:00 [kprobe-optim
+root          20  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          21  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/2]
+root          23  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          24  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/2]
+root          25  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/2]
+root          27  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/2:0H
+root          28  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/4]
+root          29  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          30  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/4]
+root          31  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/4]
+root          33  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/4:0H
+root          34  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/6]
+root          35  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          36  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/6]
+root          37  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/6]
+root          39  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/6:0H
+root          40  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/8]
+root          41  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          42  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/8]
+root          43  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/8]
+root          45  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/8:0H
+root          46  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/10]
+root          47  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          48  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/10
+root          49  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/10
+root          51  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/10:0
+root          52  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/12]
+root          53  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          54  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/12
+root          55  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/12
+root          57  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/12:0
+root          58  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/14]
+root          59  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          60  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/14
+root          61  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/14
+root          63  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/14:0
+root          64  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/1]
+root          65  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          66  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/1]
+root          67  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/1]
+root          69  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/1:0H
+root          70  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/3]
+root          71  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          72  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/3]
+root          73  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/3]
+root          75  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/3:0H
+root          76  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/5]
+root          77  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          78  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/5]
+root          79  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/5]
+root          81  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/5:0H
+root          82  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/7]
+root          83  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          84  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/7]
+root          85  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/7]
+root          87  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/7:0H
+root          88  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/9]
+root          89  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          90  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/9]
+root          91  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/9]
+root          93  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/9:0H
+root          94  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/11]
+root          95  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root          96  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/11
+root          97  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/11
+root          99  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/11:0
+root         100  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/13]
+root         101  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root         102  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/13
+root         103  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/13
+root         105  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/13:0
+root         106  0.0  0.0      0     0 ?        S    Oct18   0:00 [cpuhp/15]
+root         107  0.0  0.0      0     0 ?        S    Oct18   0:00 [idle_inject/
+root         108  0.0  0.0      0     0 ?        S    Oct18   0:00 [migration/15
+root         109  0.0  0.0      0     0 ?        S    Oct18   0:00 [ksoftirqd/15
+root         111  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/15:0
+root         114  0.0  0.0      0     0 ?        S    Oct18   0:00 [kdevtmpfs]
+root         115  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-in
+root         116  0.0  0.0      0     0 ?        I    Oct18   0:00 [rcu_tasks_kt
+root         117  0.0  0.0      0     0 ?        I    Oct18   0:00 [rcu_tasks_ru
+root         118  0.0  0.0      0     0 ?        S    Oct18   0:00 [kauditd]
+root         119  0.0  0.0      0     0 ?        S    Oct18   0:00 [khungtaskd]
+root         120  0.0  0.0      0     0 ?        S    Oct18   0:00 [oom_reaper]
+root         123  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-wr
+root         124  0.0  0.0      0     0 ?        S    Oct18   0:03 [kcompactd0]
+root         125  0.0  0.0      0     0 ?        SN   Oct18   0:00 [ksmd]
+root         126  0.0  0.0      0     0 ?        SN   Oct18   0:00 [khugepaged]
+root         127  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-kb
+root         128  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-bl
+root         129  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ki
+root         130  0.0  0.0      0     0 ?        S    Oct18   0:02 [irq/9-acpi]
+root         134  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-tp
+root         136  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-at
+root         137  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-md
+root         138  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-md
+root         139  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-md
+root         140  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ed
+root         141  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-de
+root         142  0.0  0.0      0     0 ?        S    Oct18   0:00 [watchdogd]
+root         143  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-qu
+root         144  0.0  0.0      0     0 ?        S    Oct18   0:00 [irq/25-AMD-V
+root         145  0.0  0.0      0     0 ?        S    Oct18   0:00 [irq/26-AMD-V
+root         146  0.0  0.0      0     0 ?        S    Oct18   0:00 [irq/27-AMD-V
+root         147  0.0  0.0      0     0 ?        S    Oct18   0:00 [kswapd0]
+root         148  0.0  0.0      0     0 ?        S    Oct18   0:00 [ecryptfs-kth
+root         149  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-kt
+root         150  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/u67:
+root         151  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ac
+root         155  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ml
+root         156  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ip
+root         157  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ks
+root         180  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ch
+root         181  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/3:3-
+root         385  0.0  0.0      0     0 ?        S    Oct18   0:16 [irq/52-ELAN0
+root         417  0.0  0.0      0     0 ?        S    Oct18   0:00 [scsi_eh_0]
+root         418  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-sc
+root         419  0.0  0.0      0     0 ?        S    Oct18   0:00 [scsi_eh_1]
+root         420  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-sc
+root         424  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-nv
+root         425  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-nv
+root         426  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-nv
+root         427  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-nv
+root         457  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/10:1
+root         460  0.0  0.0      0     0 ?        S    Oct18   0:02 [jbd2/nvme0n1
+root         461  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ex
+root         476  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/14:1
+root         514  0.0  1.1 122652 79096 ?        S<s  Oct18   0:02 /usr/lib/syst
+systemd+     550  0.0  0.2  24824 16096 ?        Ss   Oct18   0:02 /usr/lib/syst
+root         553  0.0  0.2  41820 14624 ?        Ss   Oct18   0:01 /usr/lib/syst
+root         555  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/9:2-
+root         556  0.0  0.0      0     0 ?        S    Oct18   0:00 [psimon]
+root         560  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/8:1H
+root         616  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/6:1H
+root         686  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-cf
+systemd+     939  0.0  0.1  16808  7128 ?        Ss   Oct18   0:09 /usr/lib/syst
+root        1002  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/u67:
+root        1004  0.1  0.0      0     0 ?        S    Oct18   1:44 [irq/82-rtw88
+root        1013  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/7:1H
+root        1014  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/2:1H
+root        1021  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/9:1H
+root        1047  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/11:1
+root        1061  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/13:1
+root        1064  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/5:1H
+root        1069  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/0:1H
+root        1070  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/12:1
+root        1074  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/15:1
+root        1372  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/3:1H
+root        1379  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-am
+root        1384  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-tt
+root        1459  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/4:1H
+root        1462  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-am
+root        1463  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-dm
+avahi       1466  0.0  0.0   6756  4672 ?        Ss   Oct18   0:00 avahi-daemon:
+root        1467  0.0  0.1  13132  7304 ?        Ss   Oct18   0:00 /usr/libexec/
+root        1468  0.0  0.0   2888  1956 ?        Ss   Oct18   0:00 /bin/sh /usr/
+message+    1470  0.0  0.1  12148  8944 ?        Ss   Oct18   0:06 @dbus-daemon 
+root        1476  0.0  0.1 312260  8292 ?        Ssl  Oct18   0:00 /usr/libexec/
+root        1477  0.0  0.4  55088 31312 ?        Ss   Oct18   0:00 /usr/bin/pyth
+polkitd     1481  0.0  0.1 389140 12424 ?        Ssl  Oct18   0:03 /usr/lib/polk
+root        1491  0.0  0.6 2889884 48316 ?       Ssl  Oct18   0:21 /snap/snapd/c
+root        1495  0.0  0.1 312300  8324 ?        Ssl  Oct18   0:00 /usr/libexec/
+root        1497  0.0  0.0   9660  3308 ?        Ss   Oct18   0:00 /usr/sbin/cro
+root        1498  0.0  0.1 310572  7460 ?        Ssl  Oct18   0:00 /usr/libexec/
+root        1502  0.0  0.1  18900  9476 ?        Ss   Oct18   0:00 /usr/lib/syst
+root        1504  0.0  0.2 544244 16224 ?        Ssl  Oct18   0:03 /usr/libexec/
+root        1508  0.0  0.1  20140  8232 ?        Ss   Oct18   0:00 /opt/windscri
+root        1547  0.0  0.0      0     0 ?        S    Oct18   0:00 [card1-crtc0]
+root        1548  0.0  0.0      0     0 ?        S    Oct18   0:00 [card1-crtc1]
+root        1549  0.0  0.0      0     0 ?        S    Oct18   0:00 [card1-crtc2]
+root        1550  0.0  0.0      0     0 ?        S    Oct18   0:00 [card1-crtc3]
+root        1555  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-gf
+root        1556  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1557  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+avahi       1558  0.0  0.0   6564  1612 ?        S    Oct18   0:00 avahi-daemon:
+root        1563  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1564  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1565  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1566  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1567  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1568  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-co
+root        1569  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-sd
+root        1570  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-vc
+root        1571  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-vc
+root        1572  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-vc
+root        1573  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-jp
+root        1579  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/1:1H
+syslog      1634  0.0  0.0 220604  6256 ?        Ssl  Oct18   0:00 /usr/sbin/rsy
+root        1648  0.0  0.3 339660 21036 ?        Ssl  Oct18   0:08 /usr/sbin/Net
+_chrony     1663  0.0  0.1  23760 11044 ?        S    Oct18   0:00 /usr/sbin/chr
+root        1675  0.0  0.1  19016 12552 ?        Ss   Oct18   0:01 /usr/sbin/wpa
+_chrony     1694  0.0  0.0  12120  3340 ?        S    Oct18   0:00 /usr/sbin/chr
+root        1753  0.0  0.1 317960 13356 ?        Ssl  Oct18   0:00 /usr/sbin/Mod
+root        2428  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-ip
+root        2450  0.0  0.0      0     0 ?        S    Oct18   0:00 [iprt-VBoxTsc
+root        2503  0.0  2.6 323136 182564 ?       Ss   Oct18   0:00 /usr/bin/pyth
+root        2506  0.0  0.4 134512 33836 ?        Ssl  Oct18   0:00 /usr/bin/pyth
+colord      2515  0.0  0.2 320128 16336 ?        Ssl  Oct18   0:00 /usr/libexec/
+root        2670  0.0  0.1 387304 10376 ?        Ssl  Oct18   0:00 /usr/sbin/gdm
+rtkit       2875  0.0  0.0  21872  3608 ?        SNsl Oct18   0:00 /usr/libexec/
+root        2984  0.0  0.0      0     0 ?        S<   Oct18   0:00 [krfcommd]
+root        3085  0.0  0.1 321852 11876 ?        Ssl  Oct18   0:04 /usr/libexec/
+root        4283  0.0  0.1 311816  7712 ?        Ssl  Oct18   0:00 /usr/libexec/
+root        4327  0.0  0.1 388476 11156 ?        Sl   Oct18   0:00 gdm-session-w
+ammar       4572  0.0  0.2  24280 14896 ?        Ss   Oct18   0:02 /usr/lib/syst
+ammar       4607  0.0  0.0  23456  4144 ?        S    Oct18   0:00 (sd-pam)
+ammar       4630  0.0  0.1  10484  7716 ?        Ss   Oct18   0:03 /usr/bin/dbus
+ammar       4631  0.0  0.2 118536 16820 ?        S<sl Oct18   0:18 /usr/bin/pipe
+ammar       4635  0.0  0.1 186140 11092 ?        SLsl Oct18   0:00 /usr/bin/gnom
+ammar       4646  0.0  0.0   7692  4244 ?        Ss   Oct18   0:00 /usr/bin/mpri
+ammar       4649  0.0  0.3 491860 23904 ?        S<sl Oct18   0:02 /usr/bin/wire
+ammar       4652  0.0  0.0  87412  5588 ?        Ssl  Oct18   0:00 /usr/bin/pipe
+ammar       4653  0.0  0.3 193500 24368 ?        S<Lsl Oct18   0:23 /usr/bin/pip
+ammar       4774  0.0  0.1 689868  8528 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       4778  0.0  0.0 309964  6696 ?        Ssl  Oct18   0:00 /usr/libexec/
+root        4785  0.0  0.0   2792  2252 ?        Ss   Oct18   0:00 fusermount3 -
+ammar       4815  0.0  0.0 170796  6524 tty2     Ssl+ Oct18   0:00 /usr/libexec/
+ammar       4824  0.0  0.1 175212  9148 tty2     Sl+  Oct18   0:00 /usr/libexec/
+ammar       5056  0.0  0.1 236828  8148 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5057  0.0  0.0  89808  5776 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5058  0.0  0.0  10484  6372 ?        Ss   Oct18   0:00 /usr/bin/ssh-
+ammar       5096  0.0  0.1 315552  8892 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5107  0.0  0.1 327240  7684 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5110  0.0  0.1 542180 11268 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5135  1.6  4.4 10902340 307500 ?     Ssl  Oct18  16:26 /usr/bin/gnom
+ammar       5212  0.0  0.1 381092  7956 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5219  0.0  0.0   8748  5272 ?        S    Oct18   0:00 /usr/bin/dbus
+ammar       5221  0.0  0.1 168688  7776 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5232  0.0  0.2 658736 19456 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5248  0.0  0.6 1159676 46312 ?       Ssl  Oct18   0:00 /usr/libexec/
+ammar       5257  0.0  0.4 2738128 32108 ?       Sl   Oct18   0:00 /usr/bin/gjs 
+ammar       5278  0.0  0.1 388128 11588 ?        Ssl  Oct18   0:22 /usr/bin/ibus
+ammar       5281  0.0  0.1 256368 10440 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5282  0.0  0.1 254200 10232 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5289  0.0  0.1 262740 12284 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5290  0.0  0.1 393608 10916 ?        Ssl  Oct18   0:01 /usr/libexec/
+ammar       5291  0.0  0.1 385700  8044 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5296  0.0  0.2 759260 15080 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5298  0.0  0.1 543500 11616 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5302  0.0  0.2 330268 14000 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5307  0.0  0.1 459524  7932 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5310  0.0  0.1 172432  7308 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5312  0.0  0.1 469964 12948 ?        Ssl  Oct18   0:03 /usr/libexec/
+ammar       5323  0.0  0.1 388276  9716 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5325  0.0  0.5 576660 39296 ?        Sl   Oct18   0:01 /usr/bin/upda
+ammar       5326  0.0  0.1 257516 10432 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5333  0.0  0.1 679584  9852 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5334  0.0  1.0 995484 72124 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5346  0.0  0.1 392984 10256 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5369  0.0  0.1 312176  9744 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5372  0.0  0.4 469416 31268 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5377  0.0  0.1 245612  7988 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5380  0.0  0.5 505672 39516 ?        Sl   Oct18   0:05 /usr/libexec/
+ammar       5413  0.0  0.1 311100  7940 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5465  0.0  0.4 2737088 32056 ?       Sl   Oct18   0:00 /usr/bin/gjs 
+ammar       5476  0.0  0.1 475816 12236 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5487  0.0  0.1 390544 10020 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       5519  0.0  0.3 1436544 26484 ?       Ssl  Oct18   0:00 /usr/libexec/
+ammar       5545  0.0  0.4 828640 30416 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5577  0.0  0.4 945212 28580 ?        SNsl Oct18   0:02 /usr/libexec/
+ammar       5578  0.0  0.1 171776  7892 ?        Sl   Oct18   0:05 /usr/libexec/
+ammar       5581  0.0  0.2 631764 20704 ?        Ssl  Oct18   0:02 /usr/libexec/
+ammar       5589  0.0  0.1 463384 11764 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5603  0.0  0.6 693828 48024 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5613  0.0  0.1 310432  7104 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5618  0.0  0.1 392484  9076 ?        Ssl  Oct18   0:01 /usr/libexec/
+ammar       5624  0.0  0.1 311448  7836 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5629  0.0  0.1 310480  7360 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5716  0.0  0.1 171536  7284 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       5900  0.0  0.0 165476  6680 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       6019  0.0  0.1 536976 10676 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       6058  0.0  0.4 498000 31836 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       6402  0.0  0.0 303928  6428 ?        Ssl  Oct18   0:00 /snap/snapd-d
+ammar       6584  0.0  0.5 440708 35368 ?        Sl   Oct18   0:00 /snap/snapd-d
+ammar       7467  0.0  1.3 974396 91244 ?        Sl   Oct18   0:00 /usr/bin/Xway
+ammar       7504  0.0  0.2 257032 16652 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar       7514  0.0  1.5 1479020 108432 ?      Sl   Oct18   0:01 /usr/libexec/
+ammar       7569  0.0  1.0 898920 74384 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       8155  0.0  2.3 2557880 161948 ?      Sl   Oct18   0:12 /usr/bin/naut
+ammar       8194  0.0  0.1 390268 10088 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       8195  0.0  0.1 389892  9732 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       8207  0.0  0.1 390880  9712 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       8213  0.0  0.1 389296  9364 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar       8218  0.0  0.4  47424 33780 ?        S    Oct18   0:00 python3 /usr/
+uuidd       8220  0.0  0.0  10704  3356 ?        Ss   Oct18   0:00 /usr/sbin/uui
+ammar       8250  0.0  2.0 2059328 141816 ?      Sl   Oct18   0:33 /usr/bin/gnom
+root        8609  0.0  0.0      0     0 ?        S    Oct18   0:00 [psimon]
+root        8832  0.0  0.6 370140 47264 ?        Ssl  Oct18   0:01 /usr/libexec/
+ammar       9053  0.0  0.1 215236  8412 ?        Ssl  Oct18   0:00 /snap/firmwar
+root       12432  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/15:0
+root       12462  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/5:3-
+root       12467  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/8:0-
+root       12470  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/10:1
+root       12471  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/11:0
+root       13495  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/1:1-
+ammar      16587  0.0  0.0  10484  6628 ?        S    Oct18   0:00 /usr/bin/ssh-
+ammar      17394  0.0  0.0   3768  2244 ?        S    Oct18   0:00 bwrap --unsha
+ammar      17396  0.0  0.0   3768  1424 ?        S    Oct18   0:00 bwrap --unsha
+ammar      17397  0.0  0.2 145336 15432 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar      17584  0.0  0.0   3768  2296 ?        S    Oct18   0:00 bwrap --unsha
+ammar      17585  0.0  0.0   3768  1424 ?        S    Oct18   0:00 bwrap --unsha
+ammar      17586  0.0  0.1 145336  6948 ?        Sl   Oct18   0:00 /usr/libexec/
+ammar      18140  5.1  7.0 55770108 486420 ?     Sl   Oct18  13:59 /opt/google/c
+ammar      18144  0.0  0.1  17784  7368 ?        S    Oct18   0:00 cat
+ammar      18145  0.0  0.1  17784  7340 ?        S    Oct18   0:00 cat
+ammar      18147  0.0  0.0 54551444 4640 ?       Sl   Oct18   0:00 /opt/google/c
+ammar      18149  0.0  0.0 54543232 4488 ?       Sl   Oct18   0:00 /opt/google/c
+ammar      18168  0.0  1.0 54992096 74996 ?      S    Oct18   0:00 /opt/google/c
+ammar      18169  0.0  1.0 54992084 75600 ?      S    Oct18   0:00 /opt/google/c
+ammar      18182  0.0  0.2 54992112 19916 ?      S    Oct18   0:01 /opt/google/c
+ammar      18217  4.4  3.3 55470224 232772 ?     Sl   Oct18  12:01 /opt/google/c
+ammar      18219  0.3  2.2 55093396 152856 ?     Sl   Oct18   0:57 /opt/google/c
+ammar      18272  0.0  0.8 55075632 61392 ?      Sl   Oct18   0:03 /opt/google/c
+ammar      18288  0.0  2.4 1518494972 166768 ?   Sl   Oct18   0:07 /opt/google/c
+ammar      18328  0.0  2.0 1520466356 139120 ?   Sl   Oct18   0:02 /opt/google/c
+ammar      18714  0.1  1.3 55138612 95968 ?      Sl   Oct18   0:32 /opt/google/c
+ammar      20090  0.1  2.8 1518528008 198756 ?   Sl   Oct18   0:18 /opt/google/c
+root       20382  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/7:1-
+ammar      23296  0.3  4.0 3425216 277852 ?      Sl   Oct18   0:47 /usr/bin/pyth
+root       26298  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/13:1
+root       26496  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/11:1
+root       26497  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/15:2
+root       28321  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/5:1-
+root       29349  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/4:1-
+root       29680  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/3:0-
+root       29880  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/0:0-
+root       31283  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/8:2-
+root       31401  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/14:2
+root       31478  0.0  0.0      0     0 ?        I    Oct18   0:01 [kworker/u64:
+ammar      31610  0.2  3.9 1518522340 272376 ?   Sl   Oct18   0:28 /opt/google/c
+ammar      31686  0.0  2.0 1518492384 145168 ?   Sl   Oct18   0:00 /opt/google/c
+root       31714  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/7:2-
+ammar      31931  0.1  1.8 1711848 128308 ?      Sl   Oct18   0:16 /usr/bin/ptyx
+ammar      31972  0.0  0.1 239972  7968 ?        Ssl  Oct18   0:00 /usr/libexec/
+ammar      32017  0.0  0.0  11680  6172 pts/0    Ss   Oct18   0:00 /usr/bin/bash
+root       32235  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/1:2-
+root       32277  0.0  0.0      0     0 ?        I    Oct18   0:01 [kworker/u65:
+root       32403  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/9:3-
+ammar      32521  1.5  8.4 1518569320 586956 ?   Sl   Oct18   1:29 /opt/google/c
+ammar      32633  0.0  1.1 3219348 80284 ?       Sl   Oct18   0:00 gjs /usr/shar
+root       32876  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/R-wg
+root       32890  0.0  0.0      0     0 ?        S    Oct18   0:01 [napi/proton0
+root       32944  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/u69:
+ammar      33007  0.0  2.1 1520466708 151064 ?   Sl   Oct18   0:00 /opt/google/c
+root       33364  0.0  0.0      0     0 ?        I<   Oct18   0:00 [kworker/u68:
+ammar      33637  0.0  2.3 4986344 161772 ?      Sl   Oct18   0:01 /usr/bin/loup
+ammar      33658  0.0  0.0   3768  2308 ?        S    Oct18   0:00 bwrap --unsha
+ammar      33675  0.0  0.0   3768  1436 ?        S    Oct18   0:00 bwrap --unsha
+ammar      33676  0.0  0.1 280512  7172 ?        Sl   Oct18   0:00 /usr/libexec/
+root       33838  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/0:2-
+root       33856  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/6:0-
+root       34076  0.0  0.0      0     0 ?        I    Oct18   0:00 [kworker/13:0
+root       34738  0.0  0.0      0     0 ?        I    00:00   0:00 [kworker/4:2-
+root       34739  0.0  0.0      0     0 ?        I    00:00   0:00 [kworker/10:2
+root       34827  0.0  0.0      0     0 ?        I<   00:05   0:00 [kworker/u69:
+root       34950  0.0  0.0      0     0 ?        I    00:10   0:00 [kworker/12:1
+root       34983  0.0  0.0      0     0 ?        I    00:11   0:00 [kworker/u65:
+root       35133  0.0  0.0      0     0 ?        I<   00:18   0:00 [kworker/u68:
+root       35147  0.0  0.0      0     0 ?        I    00:19   0:00 [kworker/u64:
+root       35167  0.0  0.0      0     0 ?        I    00:20   0:00 [kworker/14:0
+root       35168  0.0  0.0      0     0 ?        I    00:20   0:00 [kworker/2:2-
+root       35200  0.0  0.0      0     0 ?        I    00:20   0:00 [kworker/u66:
+root       35365  0.0  0.0      0     0 ?        I    00:29   0:00 [kworker/u66:
+root       35381  0.0  0.1  32132 13424 ?        Ss   00:29   0:00 /usr/sbin/cup
+cups-br+   35386  0.0  0.3 207736 22796 ?        Ssl  00:29   0:00 /usr/sbin/cup
+root       35395  0.0  0.0      0     0 ?        I    00:29   0:00 [kworker/12:2
+root       35421  0.0  0.0      0     0 ?        I    00:30   0:00 [kworker/u65:
+root       35582  0.0  0.0      0     0 ?        I<   00:37   0:00 [kworker/u68:
+root       35583  0.0  0.0      0     0 ?        I<   00:37   0:00 [kworker/u68:
+root       35584  0.0  0.0      0     0 ?        I<   00:37   0:00 [kworker/u68:
+root       35585  0.1  0.0      0     0 ?        I    00:37   0:00 [kworker/u64:
+root       35587  0.0  0.0      0     0 ?        I    00:37   0:00 [kworker/2:0-
+root       35594  0.0  0.0      0     0 ?        I<   00:37   0:00 [kworker/u68:
+root       35642  0.0  0.0      0     0 ?        I    00:38   0:00 [kworker/6:2-
+root       35643  0.0  0.0      0     0 ?        I<   00:38   0:00 [kworker/u69:
+root       35652  0.0  0.0      0     0 ?        I<   00:38   0:00 [kworker/u69:
+root       35653  0.0  0.0      0     0 ?        I<   00:38   0:00 [kworker/u69:
+root       35654  0.0  0.0      0     0 ?        I<   00:38   0:00 [kworker/u69:
+root       35655  0.0  0.0      0     0 ?        I<   00:38   0:00 [kworker/u69:
+root       35657  0.1  0.0      0     0 ?        I    00:38   0:00 [kworker/u65:
+root       35670  0.0  0.0      0     0 ?        I    00:39   0:00 [kworker/u66:
+ammar      35696 26.7  7.1 1520568656 492740 ?   Sl   00:39   1:22 /opt/google/c
+root       35772  0.0  0.0      0     0 ?        I    00:39   0:00 [kworker/0:1-
+root       35797  0.0  0.0      0     0 ?        I    00:40   0:00 [kworker/4:0-
+root       35798  0.0  0.0      0     0 ?        I    00:40   0:00 [kworker/8:1-
+root       35836  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/u69:
+root       35837  0.0  0.0      0     0 ?        I    00:40   0:00 [kworker/14:1
+ammar      35955  0.0  0.0   3768  2308 ?        S    00:41   0:00 bwrap --unsha
+ammar      35956  0.0  0.0   3768  1440 ?        S    00:41   0:00 bwrap --unsha
+ammar      35959  0.0  0.0 212924  6820 ?        Sl   00:41   0:00 /usr/libexec/
+root       35984  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/u69:
+root       36163  0.1  0.0      0     0 ?        I    00:44   0:00 [kworker/u64:
+ammar      36188  0.0  1.1 1518376488 82904 ?    Sl   00:44   0:00 /opt/google/
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ ss -tuln
+Netid State   Recv-Q  Send-Q                                Local Address:Port                                  Peer Address:Port                               
+udp   UNCONN  0       0                                          10.2.0.2:45858                                      0.0.0.0:*                                  
+udp   UNCONN  0       0                                           0.0.0.0:41830                                      0.0.0.0:*                                  
+udp   UNCONN  0       0                                       224.0.0.251:5353                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                       224.0.0.251:5353                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                       224.0.0.251:5353                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                           0.0.0.0:5353                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                           0.0.0.0:52416                                      0.0.0.0:*                                  
+udp   UNCONN  0       0                                     192.168.1.114:36339                                      0.0.0.0:*                                  
+udp   UNCONN  0       0                                          10.2.0.2:3702                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                   239.255.255.250:3702                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                     192.168.1.114:3702                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                   239.255.255.250:3702                                       0.0.0.0:*                                  
+udp   UNCONN  0       0                                        127.0.0.54:53                                         0.0.0.0:*                                  
+udp   UNCONN  0       0                                     127.0.0.53%lo:53                                         0.0.0.0:*                                  
+udp   UNCONN  0       0                                           0.0.0.0:49359                                      0.0.0.0:*                                  
+udp   UNCONN  0       0                                         127.0.0.1:323                                        0.0.0.0:*                                  
+udp   UNCONN  0       0                                                 *:49839                                            *:*                                  
+udp   UNCONN  0       0                                              [::]:5353                                          [::]:*                                  
+udp   UNCONN  0       0                                                 *:42951                                            *:*                                  
+udp   UNCONN  0       0                                              [::]:52416                                         [::]:*                                  
+udp   UNCONN  0       0                                  [2a07:b944::2:2]:56677                                         [::]:*                                  
+udp   UNCONN  0       0                                                 *:36403                                            *:*                                  
+udp   UNCONN  0       0        [fe80::17bf:6f06:9ce9:5f9b]%ipv6leakintrf0:3702                                          [::]:*                                  
+udp   UNCONN  0       0                          [ff02::c]%ipv6leakintrf0:3702                                          [::]:*                                  
+udp   UNCONN  0       0               [fe80::5c92:cf20:b87d:b5c4]%proton0:3702                                          [::]:*                                  
+udp   UNCONN  0       0                                 [ff02::c]%proton0:3702                                          [::]:*                                  
+udp   UNCONN  0       0                  [fe80::fa0d:acff:fe23:a3ca]%eno1:3702                                          [::]:*                                  
+udp   UNCONN  0       0                                    [ff02::c]%eno1:3702                                          [::]:*                                  
+udp   UNCONN  0       0                                             [::1]:323                                           [::]:*                                  
+udp   UNCONN  0       0                  [fe80::fa0d:acff:fe23:a3ca]%eno1:546                                           [::]:*                                  
+tcp   LISTEN  0       4096                                     127.0.0.54:53                                         0.0.0.0:*                                  
+tcp   LISTEN  0       4096                                      127.0.0.1:631                                        0.0.0.0:*                                  
+tcp   LISTEN  0       4096                                  127.0.0.53%lo:53                                         0.0.0.0:*                                  
+tcp   LISTEN  0       4096                                          [::1]:631                                           [::]:*                                  
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ ip addr 
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether f8:0d:ac:23:a3:ca brd ff:ff:ff:ff:ff:ff
+    altname enp2s0
+    altname enxf80dac23a3ca
+    inet 192.168.1.114/24 brd 192.168.1.255 scope global dynamic noprefixroute eno1
+       valid_lft 80746sec preferred_lft 80746sec
+    inet6 fe80::fa0d:acff:fe23:a3ca/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlo1: <BROADCAST,MULTICAST> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether a4:97:b1:71:00:d3 brd ff:ff:ff:ff:ff:ff
+    altname wlp3s0
+    altname wlxa497b17100d3
+32: proton0: <POINTOPOINT,NOARP,UP,LOWER_UP> mtu 1420 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/none 
+    inet 10.2.0.2/32 scope global noprefixroute proton0
+       valid_lft forever preferred_lft forever
+    inet6 2a07:b944::2:2/128 scope global noprefixroute 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5c92:cf20:b87d:b5c4/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+33: ipv6leakintrf0: <BROADCAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/ether ce:67:dc:67:80:8a brd ff:ff:ff:ff:ff:ff
+    inet6 fdeb:446c:912d:8da::/64 scope global noprefixroute 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::17bf:6f06:9ce9:5f9b/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ df -h 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.4G  2.6M  1.4G   1% /run
+/dev/nvme0n1p2  220G  152G   57G  73% /
+tmpfs           3.4G     0  3.4G   0% /dev/shm
+efivarfs        128K   43K   81K  35% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p1  975M  6.5M  968M   1% /boot/efi
+tmpfs           3.4G   14M  3.3G   1% /tmp
+/dev/sda1       932G  689G  243G  74% /home/ammar/storage
+tmpfs           678M   96K  678M   1% /run/user/1000
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ free -h 
+               total        used        free      shared  buff/cache   available
+Mem:           6.6Gi       3.4Gi       727Mi        75Mi       2.9Gi       3.2Gi
+Swap:           13Gi        24Ki        13Gi
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ uname -r
+7.0.0-38-generic
+ammar@AZ:~/Desktop/Internship-files/DG-Interns-Hub/Week 1/Findings Folder/Linux Practice$ date
+Mon Oct 19 12:50:36 AM +03 2026
